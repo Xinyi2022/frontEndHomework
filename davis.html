@@ -2,19 +2,118 @@
 <html lang="en">
 
 <head>
-  <title>State of California</title>
+  <title>Davis City</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>The College Town - Davis</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Homepage</a></li>
-      <li><a href="sacramento.html">Sacramento</a></li>
-      <li><a href="carmichael.html">Carmichael</li>
-      <li><a href="davis.html">Davis</li>
-    </ul>
-  </nav>
+  <header>
+    <div class="header">
+      <div class="headermap">
+        <img src="assets/CaliHeader.png">
+      </div>
+      <div class="link">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="headerbtn">Homepage</a></li>
+            <li><a href="sacramento.html" class="headerbtn">Sacramento</a></li>
+            <li><a href="carmichael.html" class="headerbtn">Carmichael</a></li>
+            <li><a href="davis.html" class="headerbtn">Davis</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <img src="assets/sun.png" class="bridge">
+  <hr id="breakline">
+  <section>
+    <div class="intro">
+      <h2>WELCOME TO THE BIKE CITY - DAVIS!</h2>
+      <hr>
+      <p>
+        Davis, California, renowned for its bike-friendly streets and commitment to sustainability, is a vibrant
+        community of
+        70,000 residents. Home to UC Davis, it blends academic excellence with a thriving arts scene and top-rated
+        schools. Its
+        extensive network of bike paths and lanes, coupled with green spaces like the UC Davis Arboretum, make it an
+        ideal
+        destination for outdoor enthusiasts. With a focus on community engagement and inclusivity, Davis offers a high
+        quality
+        of life in Northern California.
+      </p>
+      <cite><a
+          href="https://datausa.io/profile/geo/davis-ca/#:~:text=Median%20household%20income%20in%20Davis,values%20of%20%24135%2C217%20and%20%24116%2C806.">All
+          About Davis</a></cite>
+    </div>
+
+    </div>
+    <div>
+      <div class="content-container">
+        <div class="davisimg">
+          <img src="assets/bicycle.png" width="100%">
+          <img src="assets/davislogo.png" class="bike">
+        </div>
+
+        <div class="paragraph-container facts">
+          <h3>Facts of Davis</h3>
+          <ol>
+            <li>
+              Year: 1917
+            </li>
+            <li>
+              Population:67,030
+            </li>
+            <li>
+              Classification:Suburb
+            </li>
+            <li>
+              Average income:$81,231
+            </li>
+            <li>
+              Region:Central Vally of northern California
+            </li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <div class="signup-container">
+        <h2>Stay updated</h2>
+        <div class="signup-form">
+
+          <form class="form-container">
+            <div class="input-field">
+              <label>First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Your first name" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Your last name" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Email </label>
+              <input type="email" id="email" name="email" placeholder="Your email" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Confirm email</label>
+              <input type="email" id="emailConfirm" name="email" placeholder="Confirm your email" class="form-field">
+            </div>
+            <div class="input-field">
+              <span hidden style="color: red;" id="errorSpan" class="form-field">error: Email not match.</span>
+            </div>
+            <div class="input-field">
+              <label>Any questions?</label>
+              <input type="text" id="question" class="form-field" placeholder="Enter your questions">
+            </div>
+        </div>
+
+        </form>
+      </div>
+      </div>
+    </footer>
+
 </body>
 
 </html>

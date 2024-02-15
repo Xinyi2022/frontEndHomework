@@ -2,19 +2,115 @@
 <html lang="en">
 
 <head>
-  <title>State of California</title>
+  <title>Sacramento City</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>The Capital City of California - Sacramento</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Homepage</a></li>
-      <li><a href="sacramento.html">Sacramento</a></li>
-      <li><a href="carmichael.html">Carmichael</li>
-      <li><a href="davis.html">Davis</li>
-    </ul>
-  </nav>
+  <header>
+    <div class="header">
+      <div class="headermap">
+        <img src="assets/CaliHeader.png">
+      </div>
+      <div class="link">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="headerbtn">Homepage</a></li>
+            <li><a href="sacramento.html" class="headerbtn">Sacramento</a></li>
+            <li><a href="carmichael.html" class="headerbtn">Carmichael</a></li>
+            <li><a href="davis.html" class="headerbtn">Davis</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <img src="assets/sun.png" class="bridge">
+  <hr id="breakline">
+  <section>
+    <div class="intro">
+      <h2>WELCOME TO THE CAPITAL CITY - SACRAMENTO!</h2>
+      <hr>
+      <p>Sacramento, California's capital city, is a vibrant metropolis situated at the confluence of the Sacramento and
+        American
+        Rivers. With a rich history dating back to the California Gold Rush era, Sacramento has evolved into a diverse
+        and
+        dynamic urban center. Known for its cultural attractions, thriving arts scene, and bustling downtown district,
+        Sacramento offers residents and visitors alike a unique blend of history, innovation, and natural beauty. As the
+        political and cultural heart of California, Sacramento boasts a lively culinary scene, diverse neighborhoods,
+        and a
+        strong sense of community pride. From its iconic landmarks like the State Capitol building to its picturesque
+        riverfront
+        parks and bustling entertainment venues, Sacramento welcomes all to experience its rich tapestry of culture and
+        opportunity.
+      </p>
+      <cite><a href="https://datausa.io/profile/geo/sacramento-ca">All About Sacramento</a></cite>
+    </div>
+
+    </div>
+    <div>
+      <div class="content-container">
+        <img src="assets/sacCapital.png" width="50%">
+        <div class="paragraph-container facts">
+          <h3>Facts of Sacramento</h3>
+          <ol>
+            <li>
+              <b>Year:</b> 1850
+            </li>
+            <li>
+              Population: 518,605
+            </li>
+            <li>
+              Classification: Urban
+            </li>
+            <li>
+              Average income: $71,074
+            </li>
+            <li>
+              Region: Northern California
+            </li>
+          </ol>
+
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <div class="signup-container">
+        <h2>Stay updated</h2>
+        <div class="signup-form">
+
+          <form class="form-container">
+            <div class="input-field">
+              <label>First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Your first name" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Your last name" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Email </label>
+              <input type="email" id="email" name="email" placeholder="Your email" class="form-field">
+            </div>
+            <div class="input-field">
+              <label>Confirm email</label>
+              <input type="email" id="emailConfirm" name="email" placeholder="Confirm your email" class="form-field">
+            </div>
+            <div class="input-field">
+              <span hidden style="color: red;" id="errorSpan" class="form-field">error: Email not match.</span>
+            </div>
+            <div class="input-field">
+              <label>Any questions?</label>
+              <input type="text" id="question" class="form-field" placeholder="Enter your questions">
+            </div>
+        </div>
+
+        </form>
+      </div>
+      </div>
+    </footer>
+
 </body>
 
 </html>
