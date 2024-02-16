@@ -83,7 +83,7 @@ ul li{
   text-align: center;
 }
 
-aside {
+.homeaside {
   width: 40%;
   padding-left: 0.5rem;
   margin-left: 0.5rem;
@@ -156,5 +156,36 @@ ol li{
   margin-right: 20%;
 }
 
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+td, th {
+  border: 1px solid #89c3cf;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #8ec1d4;
+}
+
+.disclaimer {
+  background-color: #68a4c2;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.disclaimer p {
+  margin: 0;
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
 
 
